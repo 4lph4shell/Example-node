@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/shared.css">
+        <link rel="stylesheet" href="./styles/main.css">
+        <title>Web App</title>
+    </head>
+    <body>
+        <div class="backdrop"></div>
+        <div class="modal">
+            <h1 class="modal__title">عنوان</h1>
+            <div class="modal__actions">
+                <a href="#" class="modal__action">ثبت سفارش</a>
+                <button class="modal__action modal__action--negative">
+                    انصراف
+                </button>
+            </div>
+        </div>
+        <header class="main-header"> 
+            <div>
+                <a href="#" class="main-header__logo">
+                    Logo
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="main-nav__items">
+                    <li class="main-nav__item">
+                        <a href="./pages/customers/index.html">مشتریان</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="./pages/plans/index.html">تعرفه‌ها</a>
+                    </li>
+                    <li class="main-nav__item main-nav__item--account">
+                        <a href="#">حساب کاربری</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="overview">
+            </section>
+            <section id="plans">
+                <h1 class="section-title">تعرفه‌ها</h1>
+                <div class="plan__list">
+                    <article class="plan">
+                        <h2 class="plan__title">عضویت ویژه</h2>
+                        <h3 class="plan__price">۷۹ هزار تومان / ماهانه</h3>
+                        <ul class="plan__features">
+                            <li class="plan__feature">امکانات پلن</li>
+                            <li class="plan__feature">امکانات پلن</li>
+                            <li class="plan__feature">امکانات پلن</li>
+                        </ul>
+                        <div>
+                            <button class="plan__btn">انتخاب</button>
+                        </div>
+                    </article>
+                    <article class="plan plan--highlighted">
+                        <h2 class="plan__title--highlighted">عضویت ویژه</h2>
+                        <h3 class="plan__price">۷۹ هزار تومان / ماهانه</h3>
+                        <ul class="plan__features">
+                            <li class="plan__feature">امکانات پلن</li>
+                            <li class="plan__feature">امکانات پلن</li>
+                            <li class="plan__feature">امکانات پلن</li>
+                        </ul>
+                        <div>
+                            <button class="plan__btn">انتخاب</button>
+                        </div>
+                    </article>
+                    <article class="plan">
+                        <h2 class="plan__title">عضویت ویژه</h2>
+                        <h3 class="plan__price">۷۹ هزار تومان / ماهانه</h3>
+                        <ul class="plan__features">
+                            <li class="plan__feature">امکانات پلن</li>
+                            <li class="plan__feature">امکانات پلن</li>
+                            <li class="plan__feature">امکانات پلن</li>
+                        </ul>
+                        <div>
+                            <button class="plan__btn">انتخاب</button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section id="features">
+                <h1 class="section-title">ویژگی‌ها</h1>
+                <ul class="features__list">
+                    <li class="features__list--elemet">
+                        <div class="features__image">
+
+                        </div>
+                        <p class="feauters__description">
+                            مشخصات
+                        </p>
+                    </li>
+                    <li class="features__list--elemet">
+                        <div class="features__image">
+
+                        </div>
+                        <p class="feauters__description">
+                            مشخصات
+                        </p>
+                    </li>
+                    <li class="features__list--elemet">
+                        <div class="features__image">
+
+                        </div>
+                        <p class="feauters__description">
+                            مشخصات
+                        </p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="main-footer">
+            <nav>
+                <ul class="main-footer__links">
+                    <li class="main-footer__link">
+                        <a href="./pages/customers/index.html">مشتریان</a>
+                    </li>
+                    <li class="main-footer__link">
+                        <a href="./pages/plans/index.html">تعرفه‌ها</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <script src="./scripts/shared.js"></script>
+    </body>
+</html>
